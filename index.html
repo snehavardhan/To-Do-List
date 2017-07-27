@@ -4,12 +4,22 @@
     <meta charset="utf-8">
     <title>To Do List</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
   </head>
   <body>
-    <h1>To-Do List</h1>
+    <div class="container">
+        <div class="row">
+          <div class="jumbotron">
+          <h1>To Do List</h1>
+          <p>Take the next small step to achieve your GOALS!!</p>
+        </div>
+      </div>
+    </div>
     <div id="input">
-      <input id="task" type="text" id="todos">
-      <button type="button" id="addButton">Add</button>
+      <input id="task" type="text">
+      <button type="button" class="btn btn-default" id="addButton">
+        <!-- <span class="glyphicon glyphicon-pencil" aria-hidden="true">Add</span></button> -->
+        Add to List</button>
     </div>
     <div id="showList"></div>
     <script src="script.js"></script>

@@ -1,6 +1,8 @@
 body{
-  background-image: url("images/bg.jpg");
-  background-size:cover;
+  /*background-image: url("images/bg.jpg");*/
+  /*background-size:auto;
+  background-repeat: no-repeat;*/
+  background-color: #E6E6FA;
 }
 
 h1{
@@ -51,4 +53,8 @@ button.remove{
   background-color: #d83840;
   color: #FFFFFF;
   border: 1px solid #d83840;
+}
+
+.jumbotron p{
+  text-align: center;
 }
