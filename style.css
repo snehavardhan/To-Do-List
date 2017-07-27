@@ -1,0 +1,54 @@
+body{
+  background-image: url("images/bg.jpg");
+  background-size:cover;
+}
+
+h1{
+  font-size: 44px;
+  text-align: center;
+  color: #932347;
+}
+
+span{
+  padding-left: 30px;
+}
+
+li{
+  padding: 10px 10px;
+  text-align: center;
+  font-size: 25px;
+}
+
+ul {
+  list-style: none;
+}
+
+#input, #showList {
+  text-align: center;
+}
+
+input[type=text] {
+  border: none;
+  border-bottom: 1px solid gray;
+  padding: 10px 20px;
+  background: inherit;
+}
+
+#addButton {
+  background-color: #008CBA;
+  color: #ffffff;
+  border: 2px solid #008CBA;
+  font-size: 16px;
+  padding: 10px 20px;
+  transition-duration: 0.4s;
+}
+
+#addButton:hover{
+  box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+}
+
+button.remove{
+  background-color: #d83840;
+  color: #FFFFFF;
+  border: 1px solid #d83840;
+}
